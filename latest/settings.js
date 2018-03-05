@@ -19,6 +19,13 @@
 //var fs = require("fs");
 
 module.exports = {
+    // enable projects
+    editorTheme: {
+       projects: {
+           enabled: true
+       }
+   },
+    
     // the tcp port that the Node-RED web server is listening on
     uiPort: process.env.PORT || 1880,
 
