@@ -26,7 +26,7 @@ EXPOSE 1880
 
 ###
 
-FROM andrewcgaitskellhs2/node-red-docker
+FROM andrewcgaitskellhs2/node-red
 COPY settings.js /data
 
 # Environment variable holding file path for flows configuration
